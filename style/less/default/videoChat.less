@@ -1,0 +1,74 @@
+.inline{
+  display:inline-block;
+}
+.width-restricted{
+  width:80%;
+  margin:15px auto;
+} 
+.datetype{
+  position:absolute;
+  top:1em;
+  right:0px;
+} 
+.avatartype{
+  .inline;
+  background-image:url('/img/default-avatar.jpg');
+  background-size:100%;
+  background-position:5px 0px;
+  width:50px;
+  height:50px;
+}
+.postType{
+  position:relative;
+  .width-restricted;
+  .display{ .avatartype }
+  .name{ .inline; }
+  .date{ .datetype; }
+  hr{ margin:5px 15px; }
+  .content{
+    margin-left:20px;
+  }
+}
+#publisher{
+  width: 100% !important;
+  height: 300px !important;
+}
+#dcbutton{
+  color: #fff;
+  width: 100%;
+  margin-top: 20px;
+  padding: 7px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  height: 45px;
+  padding: 10px;
+  text-align: center;
+  text-transform: none;
+  text-shadow: rgba(17, 121, 103, .5) 1px 1px 1px;
+  -webkit-tap-highlight-color: transparent!important;
+  background-color: #35e2c3;
+  border: 0;
+}
+#dcbutton, input[type=submit], .submit-btn{
+  font-size: 18px !important;
+  background: #35e2c3 !important;
+  border: 1px solid #35e2c3 !important;
+}
+.submit-btn{
+  line-height: 30px !important;
+  margin-top: 15px;
+}
+#dcbutton:hover, input[type=submit]:hover, .submit-btn:hover{
+    background-color: #1bd5b5 !important;
+    border: 1px solid #1bd5b5 !important;
+}

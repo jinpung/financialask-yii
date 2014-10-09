@@ -1,0 +1,42 @@
+.star {
+    position: relative;
+}
+.star_wrap.active {
+    cursor: pointer;
+}
+.star-half {
+    position: absolute;
+    width: 7px;
+    height: 13px;
+}
+.star-half.first {
+    position: absolute;
+    left: 0;
+}
+.star-half.second {
+    position: absolute;
+    left: 7px;
+}
+.rate-row {
+    padding: 3px 0;
+}
+
+.feedback-div {
+    display: none;
+}
+.btn-xs, .btn-group-xs > .btn {
+    border-radius: 3px;
+    font-size: 12px !important;
+    line-height: 1.5;
+    padding: 1px 5px !important;
+    height: auto !important;
+    background: #35e2c3 !important;
+    color: white !important;
+}
+.btn-xs:hover, .btn-group-xs > .btn:hover {
+    color: black !important;
+    background: #35e2c3 !important;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    
+}

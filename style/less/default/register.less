@@ -1,0 +1,149 @@
+@import "forms";
+@import "feed";
+
+@import "common";
+
+.register-form, .login-form{
+    border-radius: 5px;
+    width: 330px;
+    height: auto;
+    position: static;
+    float: none;
+    margin: 50px auto 50px;
+    padding: 10px 20px 10px 20px;
+    background: #fff url() no-repeat fixed center;
+    #submitBtn {
+        display: block;
+        width: 275px;
+        margin: auto;
+        font-weight: 400;
+        text-shadow: rgba(17,121,103,.5) 1px 1px 1px;
+        font-size: 18px;
+    }
+    .topic {
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: -.5px;
+        padding: 18px 0;
+        b {
+            font-weight: 400;
+        }
+    }
+    input,select{
+        .border-radius(7px);
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #e2e2e2;
+        font-size: 16px;
+        font-weight: 300;
+        height: 3em;
+        line-height: 1.5em;
+        margin: auto auto;
+        padding: .5em;
+        text-align: center;
+        outline: 0px;
+        width: 275px;
+    }
+    .content-terms{
+        /*max-height: 330px;
+        overflow-y: scroll;*/
+    }
+    .accept-terms{
+        margin-left: 10px;
+        margin-bottom: 5px;
+        input[type=checkbox]{
+            .border-radius(0px);
+            width: 24px;
+            height: inherit;
+            margin-right: 3px;
+        }
+        label{
+            font-weight: bold;
+            vertical-align: top;
+        }    
+    }
+
+    a {
+        color: #1bd5b5;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    #RegisterForm_gender{
+        margin:auto auto;
+    }
+    .errorMessage {
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+        border-radius: 7px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background: #fde5e5;
+        border: 1px solid #ed0000;
+        color: #ed0000;
+        font-weight: 300;
+        margin: 6px auto 10px;
+        padding: 10px;
+        width: 275px;
+    }
+
+    .member-avatar {
+        -webkit-border-radius: 95px;
+        -moz-border-radius: 95px;
+        -ms-border-radius: 95px;
+        -o-border-radius: 95px;
+        border-radius: 95px;
+        background: url(/img/default-profile-icon.png) no-repeat;
+        background-size: cover;
+        height: 188px;
+        margin: 0 auto 10px;
+        position: relative;
+        width: 188px;
+
+        .loading-container {
+            position: relative;
+            top: 37px;
+        }
+
+        .optional-overlay {
+            color: #aaa;
+            font-size: 13px;
+            font-weight: 300;
+            padding-top: 25px;
+            .fg-spinner {
+                -webkit-animation: rotate-fun 1.25s linear infinite;
+                -ms-animation: rotate-fun 1.25s linear infinite;
+                -moz-animation: rotate-fun 1.25s linear infinite;
+                -o-animation: rotate-fun 1.25s linear infinite;
+                animation: rotate-fun 1.25s linear infinite;
+                background-image: url(/img/spinner_74x74.png);
+                background-repeat: no-repeat;
+                background-size: 37px;
+                background-position: 0 0;
+                height: 37px;
+                margin: auto;
+                width: 37px;
+            }
+        }
+        .camera-button-icon {
+            bottom: 0;
+            left: 50%;
+            margin-left: -22.5px;
+            position: absolute;
+        }
+        #RegisterAdviserForm_file, #RegisterForm_file {
+            bottom: 0;
+            cursor: pointer;
+            height: 61px;
+            left: 50%;
+            margin-left: -21px;
+            opacity: .01;
+            position: absolute;
+            width: 42px;
+            z-index: 3;
+        }
+    }
+}

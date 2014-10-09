@@ -1,0 +1,112 @@
+#ajax-error-container {
+  margin-top: 10px;
+}
+#ajax-error-container hr {
+  margin: 4px 1px;
+}
+#ajax-error-container .subError {
+  text-align: left;
+  font-size: 12px;
+  list-style-type: circle;
+}
+.help-block-error {
+  font-size: 15px;
+}
+#submitBtn {
+  display: block;
+  width: 272px;
+  margin: auto;
+  background: #1bd5b5;
+  border: 1px solid #1bd5b5;
+  border-radius: 3px;
+}
+.textCounter {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  text-align: right;
+  color: #999;
+  font-size: 14px;
+}
+.textCounterWarning {
+  color: red;
+}
+.submitBtn {
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  border-bottom-color: #aaaaaa;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: #aaaaaa;
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: #aaaaaa;
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: #aaaaaa;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-top-style: none;
+  border-top-width: 0px;
+  box-sizing: border-box;
+  color: #aaaaaa;
+  cursor: default;
+  display: inline-block;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  height: 45px;
+  line-height: normal;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  text-align: center;
+  text-shadow: none;
+  text-transform: none;
+  vertical-align: baseline;
+  background-color: #35e2c3;
+  width: 100%;
+  color: white;
+  text-shadow: #999 0 0 0.1em;
+}
+.submitBtn:hover {
+  background-color: #1bd5b5;
+}
+.submitBtn:disabled {
+  color: #AAA;
+  background-color: #eaeaea !important;
+  border-color: #eaeaea !important;
+  text-shadow: #AAA 0 0 0;
+}
+.topic ~ .topic {
+  margin-top: 50px;
+}
+.form-group .control-label {
+  display: block;
+}
+.form-group .control-label .optional,
+.form-group .control-label .explanation {
+  font-size: 16px;
+  display: inline-block;
+  color: #BBB;
+}
+.form-group .control-label .optional {
+  margin-left: 5px;
+}
+.form-group .control-label .explanation {
+  float: right;
+}

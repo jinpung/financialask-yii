@@ -1,0 +1,66 @@
+#notificationBox{
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    display:none;
+    background: url(/img/notifications.png) center center no-repeat;
+    cursor: pointer;
+    .new{
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        background-color: red;
+        color: white;
+        font-weight: bold;
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        padding-left:7px;
+    }
+    .eventList{
+        position: absolute;
+        bottom: 20px;
+        right: 0px;
+        /*background-color: #f7f7f5;*/
+        background-color: white;
+        width: 220px;
+        display:none;
+        opacity:0;
+        border-radius: 8px;
+        border: 1px solid #e2e2e2;
+        overflow: hidden;        
+        .list{
+            overflow-y: auto;
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+            list-style: none;            
+            .list-item{
+                margin: 0;
+                padding: 0;
+                border-bottom: 1px solid #e2e2e2;
+                padding:5px 5px;
+                a,a:hover{
+                    color:rgb(159, 159, 153);
+                }
+                &:hover{
+                    background-color: #e8fbf8;
+                    cursor: pointer;
+                }
+            }
+            .last-item{
+                padding:5px 5px;
+                a,a:hover{
+                    color: #1e90ff;
+                }
+            }
+        }
+    }
+}

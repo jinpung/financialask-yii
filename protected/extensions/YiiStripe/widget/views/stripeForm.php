@@ -1,0 +1,2 @@
+<?=CHtml::tag('div',array('id'=>'info'.$this->getId(),'class'=>'alert'),' ')?>
+<?=CHtml::htmlButton(CHtml::tag('span',[],$this->label),array('class'=>'stripe-button-el','id'=>'button'.$this->getId()))?>

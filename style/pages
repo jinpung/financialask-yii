@@ -1,0 +1,21 @@
+#Josh Brown, FinancialAsk 2014
+# Add each page that imports all other less files for that page, one per line, here. No need for .less extension
+# Eg
+# default/mypage
+default/menu
+default/register
+default/registerAdviser
+default/login
+default/askQuestion
+default/viewQuestion
+default/viewAdvisers
+default/adviserProfile
+default/settings
+default/sprites
+default/notifications
+default/updateProfile
+default/error404
+default/questionList
+default/eventList
+default/question
+default/advisorItem

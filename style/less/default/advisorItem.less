@@ -1,0 +1,108 @@
+.cl-mcont .advisor-result {
+    position: relative;
+    border: 0;
+    margin: 12px 3px 0px;
+    min-height: 97px;
+    .clearfix{        
+        &:before{
+            content: " ";
+            display: table;
+        }
+        &:after{
+            content: " ";
+            display: table;
+            clear: both;
+        }
+        .avatar {
+            left: 20px;
+            margin-right: 5px;
+            position: absolute;
+            top: 10px;
+            border-radius: 57px;
+            background-color: #fff;
+            background-image: url(/img/default-avatar.png);
+            background-size: cover;
+            height: 57px;
+            width: 57px;
+        }
+        .caduceus {
+            left: 85px;
+            position: absolute;
+            top: 10px;
+        }
+        .advisor-info {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            color: #666;
+            left: 0;
+            overflow: hidden;
+            padding-left: 104px;
+            padding-right: 5px;
+            text-align: left;
+            top: 10px;
+            margin-top:10px;
+            width: 100%;
+            .advisor-name {
+                font-size: 16px;
+                font-weight: 400;
+            }
+            .emphasis {
+                color: #1bd5b5;
+                font-weight: 400;
+            }
+            .specialty {
+                font-size: 13px;
+                font-weight: 300;
+                line-height: 1.3em;
+                word-wrap: break-word;
+            }
+            .rating{
+                .star_wrap{
+                    .star {
+                        display: -moz-inline-stack;
+                        display: inline-block;
+                        vertical-align: middle;
+                        zoom: 1;
+                        margin: -1px;
+                        width: 12px;
+                    }
+                    .filled-star {
+                         background-image: url(/img/sprite-sa313b29d78.png);
+                        background-position: 1px -6327px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        height: 13px;
+                        vertical-align: middle;
+                        width: 14px;
+                        padding: 1px;
+                        /*background-image: url(/imgs/sprite-sa313b29d78.png);
+                        background-position: 1px -6327px;
+                        background-repeat: no-repeat;
+                        display: inline-block;
+                        height: 13px;
+                        vertical-align: middle;
+                        width: 14px;
+                        padding: 1px;*/
+                    }
+                }
+            }
+            .location {
+                font-size: 11px;
+                font-weight: 100;
+                margin-top: 6px;
+                vertical-align: top;
+            }
+        }
+    }
+}
+
+.advisor-result-none{  
+  position:relative;
+  width:100%;
+  max-width:100%;
+  .no-result{
+    text-align:center;
+    margin-top:35px;
+  }
+}

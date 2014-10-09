@@ -1,0 +1,81 @@
+// Ask a Question Page LESS
+@import "forms";
+
+.askWrapper{
+  margin-top: 45px;
+  padding-top: 175px;
+  position: relative;
+  display: block;
+  max-width: 700px;
+  text-align: center;
+  background:white;   .question-form-img {
+background: url(/imgs/feelgood/ask-header.png) no-repeat top center;
+background-size: cover;
+height: 100%;
+width: 100%;
+}
+  font-style: normal;
+  font-weight: normal;
+  .askHeader{
+    margin:20px;
+    font-size:10pt;
+  }
+  .form{
+    margin: auto;
+    max-width: 90%;
+    width: 320px;
+    padding-bottom:50px;
+    #question-form{
+      position:relative;
+      .questionInput{
+        min-height: 140px;
+        overflow: auto;
+      }
+    }
+  }
+  .form-control-feedback{
+    position:absolute;
+    top:0px;
+  }
+  .banner{
+    height: 215px;
+    position: absolute;
+    top: -40px;
+    width: 100%;
+    .question-form-img {
+      background: url('https://edc1.healthtap.com/imgs/feelgood/ask-header.png') no-repeat top center;
+      /*background: url('/img/ask-header.png') no-repeat top center;*/
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+    }
+    .adviserCount{
+      color: #71eba7;
+      font-size: 15px;
+      font-weight: 400;
+      left: 5%;
+      position: absolute;
+      text-align: left;
+      top: 106px;
+      .fa-circle{
+      -webkit-box-shadow: 0 0 14px 2px #71eba7;
+      -moz-box-shadow: 0 0 14px 2px #71eba7;
+      box-shadow: 0 0 14px 2px #71eba7;
+      border-radius: 50%;
+      width: 13px;
+      height: 13px;
+      }
+      .icons{
+        position:relative;
+        top:20px;
+        font-size:18pt;
+        color: #fff;
+        text-align:center;
+        i~i{
+          margin-left:5px;
+        }
+      }
+    }
+  }
+
+}

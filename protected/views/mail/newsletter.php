@@ -1,0 +1,1 @@
+Newsletter view file

@@ -1,0 +1,479 @@
+#content-wrap {
+    box-sizing: border-box;
+    float: left;
+    min-height: 100%;
+    position: relative;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+#content-wrap #content {
+    box-sizing: border-box;
+    margin: 0 auto 20px;
+    max-width: 660px;
+    min-width: 320px;
+    width: 100%;
+    color: #000;
+}
+.content_inner {
+    margin-bottom: 50px;
+    margin-top: 5px;
+    padding: 0;
+}
+.content_inner .search_options {
+    padding-top: 20px;
+}
+a {
+    color: #1bd5b5;
+    cursor: pointer;
+    text-decoration: none;
+}
+.search_container {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: static;
+}
+.search_container .content_left {
+    float: left;
+    height: 74px;
+    padding-top: 25px;
+    text-align: left;
+    width: 50%;
+}
+.search_container .content_left .inner_left {
+    float: left;
+    width: 20%;
+}
+.search_container .content_left .inner_right {
+    color: #1bd5b5;
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    height: 19px;
+    left: 50px;
+    position: relative;
+    width: 80%;
+}
+.search_container .content_left .inner_right i {
+    left: -30px;
+    position: absolute;
+}
+.search_container .content_right {
+    float: left;
+    height: 74px;
+    width: 50%;
+}
+.search_container.budgeting .content_right {
+    background: url("http://www.placehold.it/605X144") no-repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
+}
+.search_container.investments .content_right {
+    background: url("http://www.placehold.it/605X144") no-repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
+}
+.search_container.retirement .content_right {
+    background: url("http://www.placehold.it/605X144") no-repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
+}
+.search_container.smsf .content_right {
+    background: url("http://www.placehold.it/605X144") no-repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
+}
+.search_container.superannuation .content_right {
+    background: url("http://www.placehold.it/605X144") no-repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
+}
+.search_options i.icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 22px;
+    padding: 1px;
+    vertical-align: middle;
+    width: 24px;
+}
+.budgeting-icon {
+    background-image: url("/img/sprite2-s2246b114c8.png");
+    background-position: 1px -4429px;
+}
+.investments-icon {
+    background-image: url("/img/sprite2-s2246b114c8.png");
+    background-position: 1px -4401px;
+}
+.retirement-icon {
+    background-image: url("/img/sprite2-s2246b114c8.png");
+    background-position: 1px -3893px;
+}
+.smsf-icon {
+    background-image: url("/img/sprite2-s2246b114c8.png");
+    background-position: 1px -4474px;
+}
+.superannuation-icon {
+    background-image: url("/img/sprite2-s2246b114c8.png");
+    background-position: 1px -3729px;
+}
+.search-nav {
+    background: none repeat scroll 0 0 #fff;
+    max-width: 660px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.search-inner {
+    margin-top: 15px;
+}
+.search-inner .input-wrap {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    background-color: #F0F0F0;
+}
+.search-inner .search-input {
+    background: url("/img/search_icon.png") no-repeat scroll 5px 12px / 16px auto rgba(0, 0, 0, 0);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #333;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    height: 39px;
+    padding: 0 25px;
+    width: 100%;
+}
+.search-inner .search-input::-moz-placeholder {
+    color: #bcbcbc;
+    font-weight: 300;
+}
+.search-inner .search-input:-moz-placeholder {
+    color: #bcbcbc;
+    font-weight: 300;
+}
+.search-inner .search-input::-webkit-input-placeholder {
+    color: #bcbcbc;
+    font-weight: 300;
+}
+.search-inner .search-input:-ms-input-placeholder {
+    color: #bcbcbc;
+    font-weight: 300;
+}
+.subheader {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    width: 100%;
+}
+.subheader .sharing, .subheader .text {
+    width: 100%;
+}
+.sharing {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 1px 1px 1px #e2e2e2;
+    box-sizing: border-box;
+    font-weight: 300;
+    margin: 10px 0;
+    min-height: 52px;
+    padding: 0.8em 20px;
+}
+.sharing .left {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+.sharing .left, .sharing .right {
+    line-height: 1.8em;
+}
+.topic-icon {
+    background-image: url("/img/sprite-sa313b29d78.png");
+    background-position: 1px -5744px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 22px;
+    padding: 1px;
+    vertical-align: middle;
+    width: 17px;
+}
+.subheader .photo {
+    background-position: center top;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+    height: 240px;
+    position: relative;
+    width: 100%;
+}
+.subheader .black-gradient {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, .4)));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .4));
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .4));
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .4));
+    background: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .4));
+    bottom: 0;
+}
+.subheader .topic-text {
+    bottom: 15px;
+    left: 20px;
+    position: absolute;
+    text-align: left;
+}
+.subheader .topic-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+    text-shadow: 1px 1px 3px #666;
+}
+.subheader .known-as {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+}
+.actions {
+    background-color: #35e2c3;
+    color: #fff;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.actions.tabs2 .action-tab {
+    width: 50%;
+}
+.actions .action-tab.active, .actions .action-tab:hover {
+    background-color: #1bd5b5;
+}
+.actions .action-tab:first-child {
+    border-left: 0 none;
+}
+.actions .action-tab {
+    background-color: #35e2c3;
+    border-left: 1px solid #1cc3a6;
+    box-sizing: border-box;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+    text-shadow: 1px 1px 1px rgba(17, 121, 103, 0.66);
+}
+.actions .action-tab {
+    font-weight: 500;
+    text-align: center;
+}
+.actions .learn-tab-icon {
+    margin-right: 5px;
+}
+.actions .action-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+.learn-tab-icon {
+    background-image: url("/img/sprite-sa313b29d78.png");
+    background-position: 1px -4651px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 25px;
+    padding: 1px;
+    vertical-align: middle;
+    width: 16px;
+}
+.actions .action-text {
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: top;
+    color: #FFF;
+}
+.actions .action-tab.active .active-indicator {
+    border-bottom: 8px solid #eaeaea;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    bottom: 0;
+    height: 0;
+    left: 50%;
+    margin-left: -8px;
+    position: absolute;
+    width: 0;
+}
+.about-icon {
+    background-image: url("/img/sprite-sa313b29d78.png");
+    background-position: 1px -3392px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    padding: 1px;
+    vertical-align: middle;
+    width: 19px;
+}
+.questions .feed-item {
+    max-width: 100%;
+}
+
+/* Result page answers section */
+.feed-item {
+    margin: 0 0 10px 0 !important;
+    overflow: hidden;
+    width: 100% !important;
+}
+.answer-item {
+    text-align: left;
+}
+.feed-item .feed-item-author {
+    border-bottom: 1px solid #e2e2e2;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 12px 20px 8px;
+}
+.feed-item .avatar {
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    width: 30px;
+    background-color: #fff;
+    background-size: cover;
+    border-radius: 57px;
+}
+.feed-item .caduceus {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.caduceus {
+    background-image: url("/img/sprite-sa313b29d78.png");
+    background-position: 1px -6192px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 17px;
+    padding: 1px;
+    vertical-align: middle;
+    width: 11px;
+}
+.feed-item .feed-header-text {
+    padding-left: 50px;
+    text-align: left;
+}
+.feed-item .author-name {
+    font-size: 15px;
+    font-weight: 400;
+}
+.feed-item {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #e2e2e2;
+}
+.left {
+    float: left;
+}
+.feed-item .feed-item-content {
+    padding: 5px 20px;
+}
+.answer-item .answer-icon {
+    float: left;
+    margin-right: 3px;
+    margin-top: 3px;
+    vertical-align: top;
+}
+.answer-icon {
+    background-image: url("/img/sprite-sa313b29d78.png");
+    background-position: 1px -4545px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 22px;
+    padding: 1px;
+    vertical-align: middle;
+    width: 26px;
+}
+.answer-item .question {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-left: 35px;
+    padding-top: 2px;
+}
+a, a:link, a:visited {
+    color: #1bd5b5;
+}
+.another-source, .another-source:visited, .another-source:visited{
+  display: block;
+  text-align:right;
+  color:#888;
+} 
+.andother-source:hover{
+    text-decoration: underline;
+}
+.answer-item .short-answer {
+    clear: both;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 0.3em;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+.answer-item .long-answer {
+    font-weight: 300;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #666;
+}
+.answer-item .answer-img {
+    background-size: cover;
+    cursor: pointer;
+    display: block;
+    height: 250px;
+    margin: 10px 0;
+    overflow: hidden;
+    width: 100%;
+}
+.answer-item .answer-text {
+    display: inline;
+}
+.answer-item .see-more-link {
+    font-weight: 400;
+}
+.answer-item .thank-btn {
+    margin: 20px 10% 15px;
+    width: 80%;
+}
+.btn, .btn-grey {
+    font-weight: 500;
+}
+.btn {
+    background-color: #35e2c3;
+    border: 0 none;
+    text-shadow: 1px 1px 1px rgba(17, 121, 103, 0.5);
+}
+.btn, .btn-grey {
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    height: 45px;
+    padding: 10px;
+    text-align: center;
+    text-transform: none;
+}
+.thank-icon {
+    background-image: url("/img/sprite-sa313b29d78.png");
+    background-position: 1px -3752px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 26px;
+    margin-left: -15px;
+    margin-right: 3px;
+    padding: 1px;
+    vertical-align: middle;
+    width: 19px;
+}
+.no_result {
+    text-align: center;
+    padding-top: 50px;
+}
+@media screen and (max-width: 780px){
+    .search_container .content_left .inner_left {
+       width: auto;
+    }
+}

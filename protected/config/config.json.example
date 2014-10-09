@@ -1,0 +1,7 @@
+{
+    "Paypal": {
+        "apiSignature": "YOUR_API_SIGNATURE",
+        "apiPassword": "YOUR_API_PASSWORD",
+        "apiUsername": "YOUR_API_USERNAME"
+    }
+}

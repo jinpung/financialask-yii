@@ -1,0 +1,82 @@
+.doc-icon,.recommend-icon,.about-icon,.feed-icon,.networks-icon,.checklists-icon,.share-icon,.try-btn-icon,.share-btn-icon,.talk2docs-icon,.recommend-btn-icon,.thank-icon,.ht-cross-icon,.caduceus-icon,.download-icon,.take-action-tab-icon,.talk2docs-tab-icon,.learn-tab-icon,.tooltip-icon,.android-icon,.apple-icon,.find-checklist-btn-icon,.todo-list-btn-icon {
+    vertical-align: top;
+}
+
+.doc-icon {
+    background-image: url(/imgs/feelgood/sprites/sprite-sa313b29d78.png);
+    background-position: 1px -3723px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 27px;
+    vertical-align: middle;
+    width: 18px;
+    padding: 1px;
+}
+
+@media (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:3 / 2),(min-device-pixel-ratio:1.5) {
+    .doc-icon {
+        background-image: url(/imgs/feelgood/sprites/sprite2x-sa7baa23fa3.png);
+        background-position: 2px -2101px;
+        -webkit-background-size: 115px,auto;
+        -moz-background-size: 115px,auto;
+        -o-background-size: 115px,auto;
+        background-size: 115px,auto;
+    };
+}
+
+.recommend-icon {
+    background-image: url(/imgs/feelgood/sprites/sprite-sa313b29d78.png);
+    background-position: 1px -4856px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 22px;
+    vertical-align: middle;
+    width: 24px;
+    padding: 1px;
+}
+
+@media (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:3 / 2),(min-device-pixel-ratio:1.5) {
+    .recommend-icon {
+        background-image: url(/imgs/feelgood/sprites/sprite2x-sa7baa23fa3.png);
+        background-position: 2px -5119.5px;
+        -webkit-background-size: 115px,auto;
+        -moz-background-size: 115px,auto;
+        -o-background-size: 115px,auto;
+        background-size: 115px,auto;
+    };
+}
+
+.about-icon {
+    background-image: url(/imgs/feelgood/sprites/sprite-sa313b29d78.png);
+    background-position: 1px -3392px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    width: 19px;
+    padding: 1px;
+}
+
+@media (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratiomenu) {
+    color:red;
+}
+
+navigation {
+    background-color: #333 /* darkgrey */;
+}
+
+#container
+{	
+    /*margin-top:-70px;*/
+}
+
+.sidepanel{
+/*overflow: hidden;*/
+padding: 8px !important;
+}
+.overfl{
+	overflow-y: auto !important;
+}
+.show{
+	display: block !important;
+}

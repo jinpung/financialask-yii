@@ -1,0 +1,182 @@
+// View Question LESS
+
+@import "forms";
+@import "feed";
+@import "common";
+
+.page-wraper {
+    width: 660px;
+    margin: 30px auto;
+    position: relative;
+}
+.span50{
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    max-width: 660px;
+    min-width: 300px;
+    padding-left:10px;
+    padding-right: 10px;
+    width: 50%;
+}
+.span33 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    padding-left: 10px;
+    width: 37.87%;
+}
+.span66 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    padding-right: 10px;
+    width: 62.12%;
+}
+
+.title-style(@color: #e8fbf8) {
+    border-bottom: 1px solid #e2e2e2;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;    
+    position: relative;
+    text-align: center;
+    background-color: @color;
+}
+
+.eventlist{
+    background-color: white;
+    .border-radius(5px);    
+    .title{
+        .title-style();        
+        color: #1bd5b5;
+        .number {
+            margin-left: 5px;
+            display: inline-block;
+            color: #bcbcbc;
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+    .container-element {
+        position: relative;
+        border-bottom: 1px solid #e2e2e2;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 15px 20px;
+        border-bottom: 1px solid #e2e2e2;
+        text-align: left;
+        width: 100%;
+        .avatar{
+            left: 20px;
+            margin-right: 5px;
+            position: absolute;
+            top: 17px;
+            background: url(/img/default-avatar.png) center center no-repeat;
+            background-size: cover;
+            height:28px;
+            width: 28px;
+            -webkit-border-radius: 28px;
+            -moz-border-radius: 28px;
+            -ms-border-radius: 28px;
+            -o-border-radius: 28px;
+            border-radius: 28px;
+            background-color: #fff;
+        }        
+        .notification-text {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            color: #666;
+            left: 0;
+            overflow: hidden;
+            padding-left: 39px;
+            padding-right: 15px;
+            text-align: left;
+            top: 0;
+            width: 100%;            
+            .text-content {
+                color: rgb(85, 85, 85);
+                word-wrap: break-word;
+            }
+        }
+        a, a:hover, a:active, a:link, a:visited {
+            color: #1bd5b5;
+            word-wrap: break-word;
+        }
+    }
+}
+
+
+.follow {
+    background-color: white;
+    .border-radius(5px);    
+    .title{
+        .title-style();        
+        color: #1bd5b5;
+
+    }
+    .follow-body{
+        position: relative;
+        border-bottom: 1px solid #e2e2e2;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 15px 20px;
+        border-bottom: 1px solid #e2e2e2;
+        text-align: left;
+        width: 100%;
+    }
+    .btn{
+        text-shadow: rgba(17,121,103,0.5) 1px 1px 1px;
+        -webkit-tap-highlight-color: transparent !important;
+        background-color: #35e2c3;
+        border: 0;
+        .border-radius(3px);         
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        font-size: 18px;
+        height: 40px;
+        padding: 10px;
+        text-align: center;
+        text-transform: none;
+        margin-top: 5px;
+        width: 100%;
+    }
+    .btn:hover {
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        border-radius: 3px;
+        background-color: #1bd5b5;
+        color: #fff;
+        font-size: 18px;
+        text-transform: none;
+    }
+}
+
+.clearfix:before {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
